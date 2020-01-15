@@ -1,32 +1,41 @@
 .App {
-  text-align: center;
   display:flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  border: 2px solid orange;
+  flex-direction: column;
+  text-align: center;
+  background-color: aliceblue;
   width:100%;
 }
-.container{
-  border:2px solid black;
-  
-}
+
 .card {
+ display:flex;
+ flex-wrap: wrap;
   padding: 20px;
   width: 800px;
   align-items: center;
   font-size: 2rem;
   color: black;
   border-radius: 5px;
-  box-shadow: 0 10px 16px -2px purple;
+  box-shadow: 0 10px 16px -2px  cadetblue;
+  margin:50px;
 }
+
 
 .card p {
   width: 700px;
 }
 
-
 .card img {
   border-radius: 3px;
-  margin-right: 20px;
+  margin: 20px;
   box-shadow: 0 10px 16px -2px gray;
+}
+
+#root div{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+.h1{
+  margin:50px;
 }
