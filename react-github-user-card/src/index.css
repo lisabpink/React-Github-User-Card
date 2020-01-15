@@ -1,0 +1,15 @@
+body {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width:100%;
+  margin:50px;
+  
+}
+html body * {
+  font-family: "Saira Condensed", sans-serif;
+  box-sizing: border-box;
+
+ 
+ 
+}
