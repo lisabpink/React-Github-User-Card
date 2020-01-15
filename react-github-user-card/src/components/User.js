@@ -23,7 +23,6 @@ class User extends React.Component {
   render() {
     return (
       <div>
-          
         <UserCard
           user={this.state.name}
           img={this.state.img}
